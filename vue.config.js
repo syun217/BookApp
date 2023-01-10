@@ -1,4 +1,4 @@
 module.exports = {
-  publicPath: '/', //Default
-  outputDir: 'dist' //Default
+  publicPath: '/BookApp', //Default
+  outputDir: 'docs' //Default
 }
