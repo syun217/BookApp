@@ -29,7 +29,7 @@ export default {
       books: [],
     }
   },
-  mounted() {
+  created() {
     if (localStorage.getItem(STORAGE_KEY)) {
       try {
         this.books = JSON.parse(localStorage.getItem(STORAGE_KEY));
